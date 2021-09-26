@@ -365,8 +365,6 @@ imgbox.getImages = async (
             DisableLogger();
         }
 
-        let result: IResponseObject = { ok: false, message: '', data: [] };
-
         const config = setHeadersConfig([
             { key: 'Accept', value: 'application/json' },
             { key: 'Cookie', value: options.auth_cookie },
@@ -385,7 +383,7 @@ imgbox.getImages = async (
             URL.images + `?&page=${options?.page ? options.page : 1}&scope=${options?.scope ? options.scope : 'all'}`,
             config);
 
-        result = {
+        return {
             ok: true,
             message: `${response.data.length >= 1 ? 'Images has been retrieved.' : `Images is empty on page ${options?.page ? options.page : 1}`} `,
             data: {
@@ -394,8 +392,6 @@ imgbox.getImages = async (
                 images: response.data
             }
         };
-
-        return result;
     } catch (error: any) {
         return {
             ok: false,
@@ -431,8 +427,6 @@ imgbox.getGalleries = async (
             DisableLogger();
         }
 
-        let result: IResponseObject = { ok: false, message: '', data: [] };
-
         const config = setHeadersConfig([
             { key: 'Accept', value: 'application/json' },
             { key: 'Cookie', value: options.auth_cookie },
@@ -451,7 +445,7 @@ imgbox.getGalleries = async (
             `?&page=${options?.page ? options.page : 1}&orderby=${options?.order_by ? options.order_by : 'updated'}`,
             config);
 
-        result = {
+        return {
             ok: true,
             message: `${response.data.length >= 1 ? 'Gallery has been retrieved.' : `Gallery is empty on page ${options?.page ? options.page : 1}`} `,
             data: {
@@ -460,8 +454,6 @@ imgbox.getGalleries = async (
                 images: response.data
             }
         };
-
-        return result;
     } catch (error: any) {
         return {
             ok: false,
