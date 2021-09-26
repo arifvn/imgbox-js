@@ -1,6 +1,7 @@
 # imgbox-js 🗳️
 [![Code Quality Score](https://www.code-inspector.com/project/29187/status/svg)](https://frontend.code-inspector.com/public/project/29187/imgbox-js/dashboard)
 [![Code Quality Score](https://www.code-inspector.com/project/29187/score/svg)](https://frontend.code-inspector.com/public/project/29187/imgbox-js/dashboard)
+[![GitHub license](https://img.shields.io/github/license/empun/imgbox-js)](https://github.com/empun/imgbox-js/blob/main/LICENSE)
 
 Lightweight [IMGBOX](https://imgbox.com) API. Unlimited free hosting for images 🗳️.
 
