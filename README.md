@@ -93,7 +93,7 @@ imgbox(images, options)
 **Note :** 🚀
 | options            | type      | description                                                                                                                                                                                                                                      |
 |------------------  |---------  |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------     |
-| `auth_cookie`      | `string`  | As default images is uploaded as a guest. <br />To get cookie and upload as logged in user jump [here](https://github.com/empun/imbox-js/#readme)                                                                                                |
+| `auth_cookie`      | `string`  | As default images is uploaded as a guest. <br />To get cookie and upload as logged in user jump [here](#get-login-cookie)                                                                                                |
 | `album_title`      | `string`  | Title of gallery/album                                                                                                                                                                                                                           |
 | `content_type`     | `string`  | `'safe'`= family safe content <br /> `'adult'`= adult content                                                                                                                                                                                    |   
 | `thumbnail_size`   | `string`  | c = thumbnail will be cropped <br /> r = thumbnail will be resized <br />  `'100c'`, `'150c'`, `'200c'`, `'250c'`, `'300c'`, `'350c'`, `'500c'`, `'800c'` <br /> `'100r'`, `'150r'`, `'200r'`, `'250r'`, `'300r'`, `'350r'`, `'500r'`, `'800r'`  |
@@ -238,4 +238,4 @@ const auth_cookie = '_imgbox_session=ZmtjTFR...'
 [Pull requests](https://github.com/empun/imgbox-js/pulls) are welcome.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/empun/imgbox-js/blob/main/LICENSE)
