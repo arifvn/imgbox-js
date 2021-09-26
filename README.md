@@ -2,6 +2,7 @@
 [![Code Quality Score](https://www.code-inspector.com/project/29187/status/svg)](https://frontend.code-inspector.com/public/project/29187/imgbox-js/dashboard)
 [![Code Quality Score](https://www.code-inspector.com/project/29187/score/svg)](https://frontend.code-inspector.com/public/project/29187/imgbox-js/dashboard)
 [![GitHub license](https://img.shields.io/github/license/empun/imgbox-js)](https://github.com/empun/imgbox-js/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/imgbox-js.svg)](https://badge.fury.io/js/imgbox-js)
 
 Lightweight [IMGBOX](https://imgbox.com) API. Unlimited free hosting for images 🗳️.
 
@@ -230,7 +231,7 @@ imgbox
 
 ## Get Login Cookie
 Unfortunately, there's no way to get `Http Only Cookie` by just using Javascript. [IMGBOX](https://imgbox.com) does not provide such as `api_token` either. So, to get access it's protected route we need to open up the browser and grab the Cookie after we are logged in.
-![get_login_cookie.jpg](imgbox-cookie.png?raw=true "Title")
+![get_login_cookie.jpg](https://images2.imgbox.com/3a/b5/v4gAgmAp_o.png "Get Login Cookie")
 
 ```ts
 // then you can use it whenever you dealing with this API, eg.
