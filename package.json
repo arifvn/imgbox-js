@@ -1,11 +1,11 @@
 {
   "name": "imgbox-js",
-  "version": "1.0.31",
+  "version": "1.0.33",
   "description": "Lightweight Imgbox API. Unlimited free hosting for images 🗳️.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "prepare": "pkgfiles",
+    "prepare": "tsc",
     "build": "rm -rf lib && tsc"
   },
   "keywords": [
@@ -33,11 +33,7 @@
     "@types/is-url": "^1.2.30",
     "@types/node": "^16.9.2",
     "@types/tough-cookie": "^4.0.1",
-    "pkgfiles": "^2.3.2",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
-  },
-  "files": [
-    "src"
-  ]
+  }
 }
