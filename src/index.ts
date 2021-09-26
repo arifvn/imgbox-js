@@ -186,7 +186,7 @@ const imgbox = async (
                 }
             };
             if (successResponse.length >= 1) {
-                result.data['gallery_edit'] = `${URL.baseURL}/${URL.gallery_edit}/${token.gallery_id}/${token.gallery_secret}`;
+                addGalleryEditResponse(result, token);
             }
         }
 

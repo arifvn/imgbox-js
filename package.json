@@ -1,6 +1,6 @@
 {
   "name": "imgbox-js",
-  "version": "1.0.33",
+  "version": "1.0.35",
   "description": "Lightweight Imgbox API. Unlimited free hosting for images 🗳️.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
